@@ -1,0 +1,552 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Suwannaphum", serif;
+}
+
+.all-contant{
+    background:aliceblue;
+}
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+    background-color: pink;
+    border-radius: 10px;
+}
+html ::-webkit-scrollbar{
+    width: 10px;
+}
+#navbar{
+    background-color:pink;
+}
+.navbar-brand{
+    color: aqua;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin: 50px;
+}
+.nav-item .nav-link{
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+
+}
+.nav-item .nav-link:hover{
+    background: palevioletred;
+    border-radius: 5px;
+    color: brown;
+}
+#navbar form button{
+    background: black;
+    color: aquamarine;
+    border: 1px solid wheat;
+}
+.home{
+   display: flex;
+   align-items: center;
+   min-width: 100%;
+   background: url("https://asianbeautyessentials.com/cdn/shop/articles/Mocha_Abstract_Skincare_Routine_Social_Media_Post_1024x.png?v=1632835975") no-repeat;
+   background-size: cover;
+   background-position: center;
+
+
+}
+.home .content{
+    padding-top: 210px;
+    margin-left: 56px;
+}
+.home .content h3{
+    font-size: 50px;
+    color: black;
+}
+.home .content p{
+    margin-top: 10px;
+    color: black;
+}
+#btn{
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: whitesmoke;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn:hover{
+    background: rgba(126, 252, 0, 0.521);
+    color:white;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+
+}
+.about .container{
+    padding-top: 70px;
+}
+.heading{
+    text-align: center;
+    margin-bottom:30px ;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.heading span{
+    color: darkmagenta;
+}
+#about .card img{
+    border-radius:8px;
+}
+#about-btn{
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid beige;
+    color: darkorange;
+    background: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#about-btn:hover{
+    background:aqua;
+    color: black;
+}
+@media screen and (max-width: 982px){
+    .about p{
+        font-size: 8px;
+
+    }
+}
+@media screen and (max-width: 766px){
+    .about p{
+        font-size: 15px;
+        
+    }
+    .about{
+        height: 120vh;
+    }
+}
+.top-cards{
+    width: 100%;
+    height: 60vh;
+    background: #f7f5f2;
+}
+.heading2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading2 span{
+    color: lightcoral;
+    
+}
+.top-cards .card{
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.top-cards .card img{
+    border-radius: 10px;
+}
+.top-cards .card:hover{
+    transform: translateY(-10px);
+}
+
+/*Product*/
+.product{
+    width: 100%;
+
+}
+.heading4{
+    text-align: center;
+    color: #b2744c;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 70px;
+    border-bottom: 2px solid #b2744c;
+
+}
+#container3{
+    margin-top: 30px;
+
+}
+.product h3{
+    text-align: center;
+    color: #b2744c;
+    font-size: 23px;
+}
+.product p{
+    color: #b2744c;
+    padding-top: 10px;
+}
+.product span p{
+    float: right;
+    cursor: pointer;
+}
+
+/*Contact style*/
+.contact{
+    width: 100%;
+    padding-top: 70px;
+}
+.contact .container{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg,wheat 80%,#b2744c 25%);
+    border-radius: 10px;
+}
+.heading6{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.heading6 span{
+    color: #b2744c;
+}
+.contact p{
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+.contact input{
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid #b2744c;
+}
+.contact-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    background: #b2744c;
+    color: wheat;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.contact-btn:hover{
+    background-color: black;
+    color: aqua;
+
+}
+.contact h1{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.contact p{
+    font-size: 15px;
+    color: black;
+    margin-top: 30px;
+    margin-left: 13px;
+}
+@media screen and(max-width:766px){
+    .contact .container{
+        background: whitesmoke;
+    }
+    .contact{
+        height: 150vh;
+    }
+    
+}
+@media screen and(max-width:400px){
+    .contact input{
+        width: 250px;
+    }
+    
+}
+/* Bloge style*/
+.blogs{
+    width: 100%;
+}
+.blogs .heading7{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    height: 10vh;
+    font-weight: bold;
+    color: black;
+}
+.blogs .heading7 span{
+    color: #b2744c;
+}
+.blogs h5{
+    color: #b2744c;
+}
+.blogs-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    color: wheat;
+    background: #b2744c;
+    cursor: pointer;
+}
+.footer-end{
+    background-color: #b2744c;
+    width: 100%;
+}
+.introduction{
+    background-color: antiquewhite;
+}
+#emoji{
+    text-align: center;
+    size: 100px;
+}
+#main-text{
+    font-family: "Suwannaphum", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+    text-align: center;
+    color:black;
+}
+#main-text:hover{
+    color: #b2744c;
+}
+.card-bodys h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+   
+    
+}
+.card {
+    margin-top: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+}
+.card img:hover{
+    transform: translateY(-20px);
+}
+#customer{
+    color: #b2744c;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 10px;
+
+}
+#customer span{
+    color: plum;
+    cursor: pointer;
+}
+#details p{
+    color: red;
+    font-size: 16px;
+    padding-top: 10px;
+
+}
+.card #details {
+color: lightcoral;
+cursor: pointer;
+}
+.card  .price{
+    color: blue;
+    font-weight: bold;
+}
+.card .price:hover{
+    color: darkgoldenrod;
+}
+/*About page*/
+
+.contants h3 p{
+    float: left;
+
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+.about .row{
+    flex: 1 1 40rem;
+    position: relative;
+    width: 100%;
+    border: 1.5rem solid snow;
+    border-radius: 5rem;
+    box-shadow: 0.5rem 1rem rgba(56, 54, 54, 0.114);
+}
+.about img{
+    width: 100%;
+    position: relative;
+}
+.about-page{
+    margin: 30px;
+    padding: 5px;
+}
+#about-btn:hover{
+    color: aqua;
+    background: darkkhaki;
+}
+#abouts h2{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+
+}
+.about-page p{
+    text-align: center;
+    padding: 3px;
+    color: darkmagenta;
+}
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: wheat;
+    padding: 80px,30px;
+    box-shadow: 0 0 9px rgba(0,0,0,0.6);
+
+}
+.about-item i{
+    font-size: 42px;
+    margin: 0;
+}
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    background-color: #b2744c;
+    margin: 0 auto;
+    border: none;
+}
+.about-item p{
+    margin-top: 20px;
+}
+.about-item:hover{
+    background-color:aquamarine ;
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color: #b2744c;
+}
+.about-item:hover hr{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.about-item:hover i{
+    transform: translateY(-20px);
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    transition: all 400ms ease-in-out;
+}
+.footer-1{
+    background-color: #b2744c;
+    padding: 10px;
+}
+.footer-1{
+    color: blanchedalmond;
+}
+.text{
+    text-align:center;
+    font-weight: bold;
+    color: blue;
+}
+.text p{
+    text-align: center;
+}
+img{
+    width: 600px;
+    height: 600px;
+}
+.service{
+    margin: 35px 0;
+}
+.service .icon{
+    font-size: 42px;
+    margin: 0;
+    transition: all 400sm linear;
+}
+.service:hover .icon{
+    color: lightcoral;
+    transform: translateX(-23px);
+}
+.service h5{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: blue;
+    margin: 0 0 7px 0;
+}
+.service:hover h5{
+    color: #b2744c;
+
+}
+.service p{
+    line-height: normal;
+
+}
+.title{
+    font-size: 18px;
+    font-weight: bold;
+}
+/*Product*/
+.products h2{
+    color: blue;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.products p{
+    color: black;
+    text-align: center;
+
+}
+.titles h6{
+    color: darkmagenta;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", serif;
+    text-align: center;
+}
+.box-container .card{
+    border: 3px;
+    width: 50px;
+    height: 450px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+.card .product-item{
+    max-width: 300px;
+    margin: auto;
+}
+.card-texts i{
+    color: rgb(208, 208, 2);
+    float: right;
+}
+@media(max-width:991px) {
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 2rem;
+    }
+    section{
+        padding: 2rem;
+    }
+    
+}
+
